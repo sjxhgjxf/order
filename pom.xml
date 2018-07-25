@@ -30,7 +30,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.39</version>
+			<version>8.0.11</version>
 		</dependency>
 		<!-- Spring MVC support -->
 		<dependency>
@@ -111,7 +111,7 @@
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
 				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
+				<version>2.1</version>
 				<configuration>
 					<path>/</path>
 					<port>8071</port>
@@ -121,4 +121,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
